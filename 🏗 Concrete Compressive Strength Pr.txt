@@ -1,0 +1,40 @@
+🏗 Concrete Compressive Strength Prediction
+📌 Overview
+
+This project predicts Concrete Compressive Strength (MPa) using a dataset of mix design parameters and curing age. By applying regression-based machine learning models, it aims to help civil engineers and material scientists estimate strength without extensive physical testing.
+
+📊 Dataset
+
+Rows: 1030
+Columns: 9
+Features:
+
+cement (kg/m³)
+
+blast_furnace_slag (kg/m³)
+
+fly_ash (kg/m³)
+
+water (kg/m³)
+
+superplasticizer (kg/m³)
+
+coarse_aggregate (kg/m³)
+
+fine_aggregate (kg/m³)
+
+age (days)
+
+Target: concrete_compressive_strength (MPa)
+
+⚙️ Methodology
+
+Data Preprocessing – Cleaning, scaling, and outlier handling.
+
+Exploratory Data Analysis (EDA) – Visualizing trends, correlations, and distributions.
+
+Model Training – Linear Regression, Decision Trees, Random Forest, SVR, KNN.
+
+Evaluation – R² score and comparison of model performance.
+
+🚀 Usage
